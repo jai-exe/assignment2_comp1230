@@ -1,0 +1,146 @@
+*{
+    font-family: "Oxygen", sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: bolder;
+}
+/** HEADER  **/
+#header-nav {
+    border-radius: 0;
+    border: 0;
+    padding-left: 5px;
+}
+
+.main-div {
+    margin-top: 20px;
+    background-color: #d7d9d9;
+}
+
+.embedded-div {
+    margin-top: auto;
+    position: relative;
+    vertical-align: center;
+}
+
+figure {
+    text-align: center;
+    float: left;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.catCols {
+    width: 100%;
+    border: solid black 0.5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#catTable {
+    width: 90%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#categories {
+    width: 20%;
+    float: left;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#items {
+    width: 75%;
+    justify-content: space-evenly;
+}
+
+.photo {
+    width: 20%;
+    float: left;
+}
+
+.itemContent {
+    width: 100%;
+}
+
+#buttons {
+    text-align: center;
+}
+
+label {
+    text-align: right;
+}
+
+#title {
+    width: 100%;
+}
+
+#description {
+    width: 100%;
+}
+
+#category {
+    width: 25%;
+}
+
+button {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.pagination {
+    margin-right: 20px;
+}
+
+#loginForm {
+    justify-content: center;
+    text-align: center;
+    padding-left: 30vw;
+    padding-right: 30vw;
+}
+
+#formWrapper {
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+#catList {
+    width: 100%;
+}
+
+.catCol {
+    width: 100%;
+
+}
+
+tr.catCol > td {
+    border: 1px solid #9b9b9b;
+    padding: 5px;
+}
+tr.catCol > th {
+    border: 1px solid #9b9b9b;
+    padding: 10px;
+}
+
+#dashList {
+    list-style: none;
+}
+
+#dashList >li > a {
+    color: black;
+    text-decoration: none;
+}
+
+#dashList > li > a:link {
+    color: black;
+}
+
+#dashList > li > a:hover {
+    text-decoration: none;
+    color: black;
+}
